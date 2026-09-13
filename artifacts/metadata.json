@@ -1,0 +1,95 @@
+{
+  "cat_features": [
+    "Branch",
+    "Product",
+    "Gender (Client)",
+    "Age Band (Client)",
+    "Loan Usage",
+    "Loan usage Business",
+    "Nature of business",
+    "Was Refinanced",
+    "Environmental & Social Risk"
+  ],
+  "num_features": [
+    "Loan Amount",
+    "Interest Rate",
+    "Number of Installments",
+    "Completed Loan Cycles (Client)",
+    "Deposits Balance (Client)",
+    "Arrears Tolerance Period",
+    "Loan Age Days"
+  ],
+  "risk_feature_cols": [
+    "Branch",
+    "Product",
+    "Gender (Client)",
+    "Age Band (Client)",
+    "Loan Usage",
+    "Loan usage Business",
+    "Nature of business",
+    "Was Refinanced",
+    "Environmental & Social Risk",
+    "Loan Amount",
+    "Interest Rate",
+    "Number of Installments",
+    "Completed Loan Cycles (Client)",
+    "Deposits Balance (Client)",
+    "Arrears Tolerance Period",
+    "Loan Age Days",
+    "Branch Arrears Rate",
+    "Product Arrears Rate"
+  ],
+  "limit_num_features": [
+    "Interest Rate",
+    "Number of Installments",
+    "Completed Loan Cycles (Client)",
+    "Deposits Balance (Client)",
+    "Arrears Tolerance Period",
+    "Loan Age Days"
+  ],
+  "clv_feature_cols": [
+    "Age Band (Client)",
+    "Gender (Client)",
+    "Completed Loan Cycles (Client)",
+    "Deposits Balance (Client)",
+    "Nature of business",
+    "Loan Usage",
+    "Loan usage Business",
+    "Branch",
+    "Product",
+    "Loan Amount",
+    "Interest Rate",
+    "Number of Installments",
+    "Loan_Age_Months"
+  ],
+  "clv_cat_features": [
+    "Age Band (Client)",
+    "Gender (Client)",
+    "Nature of business",
+    "Loan Usage",
+    "Loan usage Business",
+    "Branch",
+    "Product"
+  ],
+  "rfm_cols": [
+    "Repayment Ratio",
+    "Days In Arrears",
+    "Days Since Last Payment",
+    "Loan Frequency",
+    "Loan Amount",
+    "Total Balance"
+  ],
+  "anomaly_cols": [
+    "Loan Amount",
+    "Interest Rate",
+    "Days In Arrears",
+    "Total Balance",
+    "Total Paid",
+    "Total Due",
+    "Principal Balance",
+    "Interest Balance",
+    "Penalty Balance"
+  ],
+  "risk_threshold": 0.4090130439856568,
+  "snapshot_date": "2026-11-17 00:00:00"
+}

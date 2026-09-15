@@ -1,0 +1,25 @@
+# --- Data handling / EDA ---
+pandas==3.0.2
+numpy==2.4.4
+openpyxl==3.1.5        # required by pandas to read the .xlsx dataset
+matplotlib==3.10.9
+seaborn==0.13.2
+statsmodels==0.15.0     # VIF / multivariate analysis in the EDA section
+ 
+# --- Modeling ---
+scikit-learn==1.8.0     # StandardScaler, KMeans, IsolationForest, train/test split, metrics
+lightgbm==4.7.0         # Risk, Loan Limit, and CLV models
+optuna==5.0.0           # hyperparameter tuning (Risk, Loan Limit)
+joblib==1.5.3           # saving/loading trained models and artifacts
+ 
+# --- Explainability ---
+shap==0.51.0
+ 
+# --- Deployment: REST API ---
+fastapi==0.141.1
+uvicorn==0.46.0
+pydantic==2.13.3
+ 
+# --- Deployment: UI ---
+streamlit==1.63.0
+requests==2.33.1        # Streamlit -> FastAPI calls
